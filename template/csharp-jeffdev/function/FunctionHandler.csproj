@@ -1,8 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>NET7.0</TargetFramework>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-  </PropertyGroup>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+	</PropertyGroup>
+
 </Project>

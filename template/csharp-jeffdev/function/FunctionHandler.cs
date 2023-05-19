@@ -1,4 +1,8 @@
-﻿namespace Function
+﻿using System.IO;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+
+namespace Function
 {
     public class FunctionHandler
     {
